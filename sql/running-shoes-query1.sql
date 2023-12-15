@@ -1,3 +1,4 @@
 USE RunningShoes;
 
-SELECT * FROM shoes;
+SELECT * FROM Inventory
+JOIN Shoes ON Inventory.ShoeID = Shoes.ShoeID;
